@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:5038
+
+### Basic chat
+POST {{baseUrl}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Explain what a large language model is in 2 sentences",
+  "systemPrompt": "You are a concise technical assistant.",
+  "temperature": 0.5
+}
+
+### Creative mode
+POST {{baseUrl}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Write a haiku about software bugs",
+  "temperature": 1.0
+}

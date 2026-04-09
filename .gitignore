@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio / Rider
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+
+# User secrets
+secrets.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+coverage/
+*.coveragexml
